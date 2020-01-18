@@ -7,6 +7,11 @@
 
 
 #-------------------------------------------------------------------
+
+project_id      = "project-id"
+public_key_path = "/workspace/sa.key"
+fw_panos        = "bundle1-904" 
+
 region            = "us-east4"
 
 mgmt_vpc          = "mgmt-vpc"
@@ -37,7 +42,7 @@ spoke_user        = "demo"
 
 fw_names_inbound  = ["vmseries01", "vmseries02"]
 fw_names_outbound = ["vmseries03", "vmseries04"]
-fw_machine_type   = "n1-standard-4"
+fw_machine_type   = "n1-standard-1"
 
 glb_name          = "vmseries-glb"
 ilb_name          = "vmseries-ilb"
