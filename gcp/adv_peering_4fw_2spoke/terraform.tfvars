@@ -7,10 +7,10 @@
 
 
 #-------------------------------------------------------------------
-
+auth_file       = "/workspace/sa.key"
 project_id      = "project-id"
-public_key_path = "/workspace/sa.key"
-fw_panos        = "bundle1-904" 
+public_key_path = "/workspace/vm-creds.pub"
+fw_panos        = "bundle1-904"
 
 region            = "us-east4"
 
