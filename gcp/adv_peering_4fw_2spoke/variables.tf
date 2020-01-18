@@ -2,9 +2,9 @@ variable "project_id" {
   description = "GCP Project ID"
 }
 
-# variable "auth_file" {
-#   description = "GCP Project auth file"
-# }
+variable "auth_file" {
+  description = "GCP Project auth file"
+}
 
 variable "region" {
 }
