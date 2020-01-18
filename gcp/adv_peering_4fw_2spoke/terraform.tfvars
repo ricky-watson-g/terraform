@@ -7,7 +7,7 @@
 
 
 #-------------------------------------------------------------------
-auth_file       = "/workspace/sa.key"
+auth_file       = "${file("/workspace/sa.key")}"
 project_id      = "project-id"
 public_key_path = "/workspace/vm-creds.pub"
 fw_panos        = "bundle1-904"
