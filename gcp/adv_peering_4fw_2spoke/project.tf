@@ -3,13 +3,13 @@ terraform {
 }
 
 provider "google" {
-  credentials = ${file("/workspace/sa.key")}
+  credentials = "${file("/workspace/sa.key")}"
   project     = var.project_id
   region      = var.region
 }
 
 provider "google-beta" {
-  credentials = ${file("/workspace/sa.key")}
+  credentials = "${file("/workspace/sa.key")}"
   project     = var.project_id
   region      = var.region
   version     = "> 2.13.0"
