@@ -24,7 +24,6 @@ resource "google_compute_forwarding_rule" "default" {
   count                 = length(var.backends)
   name                  = "${var.name}-all-${count.index}"
   load_balancing_scheme = "INTERNAL"
-  ip_address            = var.ip_address
   ip_protocol           = var.ip_protocol
   all_ports             = var.all_ports
   ports                 = var.ports
