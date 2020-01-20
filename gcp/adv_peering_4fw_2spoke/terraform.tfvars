@@ -42,7 +42,7 @@ spoke_user        = "demo"
 
 fw_names_inbound  = ["vmseries01", "vmseries02"]
 fw_names_outbound = ["vmseries03", "vmseries04"]
-fw_machine_type   = "n1-standard-1"
+fw_machine_type   = "n1-standard-4"
 
 glb_name          = "vmseries-glb"
 ilb_name          = "vmseries-ilb"
